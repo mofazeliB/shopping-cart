@@ -115,7 +115,7 @@ const Header = ({ handleSearch, resetSearch, searchValue }: Props) => {
             type="button"
             className={cart.length > 0 ? " " : styles.disabled}
           >
-            PROCEED TO CHECKOUT
+            تایید سفارش
           </button>
         </div>
       </div>
