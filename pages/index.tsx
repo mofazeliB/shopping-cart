@@ -72,7 +72,7 @@ export default Home;
 
 export const getStaticProps: GetStaticProps = async () => {
   const url =
-    "https://script.google.com/macros/s/AKfycbwrtpxP95JWg2GghdxdxXDltiL101EWGhOGaJZZ0rRmedAow0t4hrQ4/exec";
+    "https://shopping-cart-git-main-behrooz-mofazelis-projects.vercel.app/products-fa.json";
   // const res = await axios.get(url);
   const res = await fetch(url);
 
