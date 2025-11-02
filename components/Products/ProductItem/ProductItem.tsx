@@ -99,7 +99,7 @@ const ProductItem = ({
                 addButtonClicked(image, name, price, id, unit, quantity)
               }
             >
-              {!isAdded ? "ADD TO CART" : "✔ ADDED"}
+              {!isAdded ? "افزودن به سبد" : "✔ افزوده شد"}
             </button>
           </div>
         </div>
