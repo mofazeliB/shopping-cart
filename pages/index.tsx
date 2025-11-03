@@ -16,7 +16,7 @@ const Home: FunctionComponent<{ products: ProductWeb[] }> = ({ products }) => {
   const [modalActive, flipModelState] = useState<boolean>(false);
 
   const initQuickPreview = {
-    image: "blank",
+    image: "blank", 
     id: 0,
     price: 0,
     name: "blank",
