@@ -101,6 +101,21 @@ const ProductItem = ({
             >
               {!isAdded ? "افزودن به سبد" : "✔ افزوده شد"}
             </button>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+  {products.map((product) => (
+    <div className="product-card p-4">
+      <img src={product.imageUrl} alt={product.name} className="w-full h-48 object-cover rounded-lg"/>
+      <div className="mt-4">
+        <h3 className="text-xl font-bold">{product.name}</h3>
+        <p className="text-gray-600">{product.description}</p>
+        <div className="flex justify-between items-center mt-2">
+          <span className="text-lg font-semibold">{product.price} تومان</span>
+          <button className="btn">افزودن به سبد خرید</button>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
           </div>
         </div>
       </div>
