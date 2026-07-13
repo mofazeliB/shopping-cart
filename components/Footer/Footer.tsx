@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <p className="footer-links">
-        <a
+        {/* <a
           href="https://github.com/zjusticy/next-shopping-cart"
           target="_blank"
           rel="noreferrer"
@@ -23,10 +23,10 @@ const Footer = () => {
           rel="noreferrer"
         >
           Read My Blog
-        </a>
+        </a> */}
       </p>
       <p>
-        &copy; 2020 <strong>Veggy</strong> - Organic Green Store
+        &copy; 2026 <strong>Mofazeli</strong> - Organic Green Store
       </p>
     </footer>
   );
